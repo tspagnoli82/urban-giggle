@@ -16,8 +16,8 @@ body {
 
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #282828;
-    color: #d3d3d3;
+    background-color: #FFFFFF;
+    color: #0c0c0c;
     webkit-tap-highlight-color: #222;
 }
 
@@ -34,7 +34,7 @@ hr.light {
 }
 
 a {
-    color: #9c27b0;
+    color: #fa1681;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -42,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #9c27c1;
+    color: #fa1681;
     outline: 0;
 }
 
@@ -56,6 +56,13 @@ p {
     margin-bottom: 20px;
 }
 
+img {
+    height: 150px;
+    width: 100px;
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
 .wide-space {
     letter-spacing: 1.6px;
 }
@@ -66,16 +73,16 @@ p {
 }
 
 .bg-primary {
-    background-color: #333;
+    background-color: #2bde73;
 }
 
 .bg-dark {
-    color: #eee;
-    background-color: #222;
+    color: #1C1C1C;
+    background-color: #FFFFFF;
 }
 
 .cursive {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', ;
     text-transform: none;
 }
 
@@ -88,15 +95,15 @@ p {
 }
 
 .text-primary {
-    color: #9c27b0;
+    color: #fa1681;
 }
 
 .modal-content {
-    background-color: #1d1d1d;
+    background-color: #fa1681;
 }
 
 section {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 aside {
@@ -122,7 +129,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    color: #fa1681;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -131,11 +138,11 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #8b27b0;
+    color: #fa1681;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #181818;
+    background-color: #ffffff;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -151,12 +158,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9c27b0;
+    color: #fa1681;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    color: #fa1681 !important;
     background-color: transparent;
 }
 
@@ -194,12 +201,12 @@ footer {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fefefe;
+        color: #ffffff;
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
-        background-color: #222;
+        border-color: rgb(43, 222, 115);
+        background-color: #2bde73;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -230,10 +237,9 @@ header {
     position: relative;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color:  #2bde73;
     width: 100%;
-    background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-color:  #2bde73;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,7 +311,7 @@ footer {
     }
 
     header .header-content .inner h1 {
-        font-size: 53px;
+        font-size: 100px;
     }
 
     header .header-content .inner p {
@@ -316,7 +322,7 @@ footer {
     }
     
     section {
-        min-height: 600px;
+        min-height: 300px;
         padding: 100px 0;
     }
 
@@ -330,9 +336,9 @@ footer {
     font-size: 14px;
     line-height: 1.5;
     color: #eee;
-    background-color: #36333d;
+    background-color:  #2bde73;
     background-image: none;
-    border: 1px solid #36333d;
+    border: 1px solid  #2bde73;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -340,7 +346,7 @@ footer {
 
 .form-control:focus {
     color: #222;
-    background-color: #ccc;
+    background-color: #2bde73;
     box-shadow: none;
 }
 
@@ -439,7 +445,7 @@ textarea {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color: #f2f2f2;
+    background-color:  #2bde73;
     opacity: 0.7;
 }
 
@@ -467,8 +473,8 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
+    border-color:  #2bde73;
+    background-color:  #2bde73;
     opacity: 0.7;
 }
 
@@ -478,9 +484,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn.btn-primary {
-    background-color: transparent;
-    border:1px solid #f0f0f0;
-    border-color:#f0f0f0;
+    background-color:  #2bde73;
+    border:1px solid  #2bde73;
+    border-color: #2bde73;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -504,7 +510,7 @@ fieldset[disabled] .btn-default.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: #2bde73;
 }
 
 ::selection {
