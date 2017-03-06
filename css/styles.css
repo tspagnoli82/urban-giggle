@@ -17,8 +17,8 @@ body {
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     background-color: #FFFFFF;
-    color: #0c0c0c;
-    webkit-tap-highlight-color: #222;
+    color: #fa1681;
+    webkit-tap-highlight-color: #33cc66;
 }
 
 hr {
@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
 }
@@ -87,7 +87,7 @@ img {
 }
 
 .text-faded {
-    color: rgba(245,245,245,0.7);
+    color: rgb(255, 255, 255);
 }
 
 .text-dark {
@@ -99,7 +99,7 @@ img {
 }
 
 .modal-content {
-    background-color: #fa1681;
+    background-color: #FFFFFF;
 }
 
 section {
