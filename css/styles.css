@@ -74,13 +74,13 @@ img {
 }
 
 .bg-primary {
-    background-color: #FFFFFF;
+    background-color: #9C9C9C;
 }
 
 .bg-dark {
     color: #fa1681;
     background-color: #FFFFFF;
-    
+
 }
 
 .cursive {
@@ -89,7 +89,7 @@ img {
 }
 
 .text-faded {
-    color: rgba(60,60,60,0.7);
+    color: #FFFFFF;
 }
 
 .text-dark {
