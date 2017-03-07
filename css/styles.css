@@ -18,7 +18,7 @@ body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     background-color: #FFFFFF;
     color: #fa1681;
-    webkit-tap-highlight-color: #33cc66;
+    webkit-tap-highlight-color: #fa1681;
 }
 
 hr {
@@ -54,6 +54,7 @@ p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
+    color: rgba(60,60,60,0.7);
 }
 
 img {
@@ -73,12 +74,13 @@ img {
 }
 
 .bg-primary {
-    background-color: #2bde73;
+    background-color: #FFFFFF;
 }
 
 .bg-dark {
-    color: #1C1C1C;
+    color: #fa1681;
     background-color: #FFFFFF;
+    
 }
 
 .cursive {
@@ -87,11 +89,11 @@ img {
 }
 
 .text-faded {
-    color: rgb(255, 255, 255);
+    color: rgba(60,60,60,0.7);
 }
 
 .text-dark {
-    color: #111;
+    color: #FFFFFF;
 }
 
 .text-primary {
@@ -188,7 +190,7 @@ footer {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #f4f4f4;
+        color: #ffffff;
     }
 
     .navbar-default .nav > li>a,
@@ -205,20 +207,20 @@ footer {
     }
 
     .navbar-default.affix {
-        border-color: rgb(43, 222, 115);
-        background-color: #2bde73;
+        border-color: rgba(60,60,60,0.7);
+        background-color: #2d2d2d;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #9c27b0;
+        color: #fa1681;
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #8b27b0;
+        color: #fa1681;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -229,7 +231,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        color: #fa1681;
     }
 }
 
@@ -239,7 +241,7 @@ header {
     text-align: center;
     color:  #2bde73;
     width: 100%;
-    background-color:  #2bde73;
+    background-color:  #2d2d2d;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -336,17 +338,17 @@ footer {
     font-size: 14px;
     line-height: 1.5;
     color: #eee;
-    background-color:  #2bde73;
+    background-color:  #2d2d2d;
     background-image: none;
-    border: 1px solid  #2bde73;
+    border: 1px solid  #2d2d2d;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 .form-control:focus {
-    color: #222;
-    background-color: #2bde73;
+    color: #ffffff;
+    background-color: #9C9C9C;
     box-shadow: none;
 }
 
@@ -445,7 +447,7 @@ textarea {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color:  #2bde73;
+    background-color: #2bde73;
     opacity: 0.7;
 }
 
